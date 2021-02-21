@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/ll_for_username_password"
+        android:id="@+id/ll_for_email_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -17,17 +17,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="Enter username"
+            android:text="Enter email"
             android:textSize="15sp"
             android:padding="5dp"
             tools:ignore="HardcodedText" />
 
         <EditText
-            android:id="@+id/user_name_edit_text"
+            android:id="@+id/email_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:background="@null"
             tools:ignore="Autofill,LabelFor" />
 
@@ -54,7 +54,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/ll_for_username_password"
+        android:layout_above="@id/ll_for_email_password"
         android:text="Login"
         android:textSize="36sp"
         android:layout_marginLeft="20dp"
@@ -66,7 +66,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ll_for_username_password"
+        android:layout_below="@id/ll_for_email_password"
         android:text="login"
         android:padding="10dp"
         android:layout_marginLeft="20dp"
