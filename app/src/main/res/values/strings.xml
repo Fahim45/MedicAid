@@ -21,4 +21,16 @@
         <item>Khulna</item>
     </string-array>
 
+    <string-array name="speciality_array">
+        <item>Select speciality</item>
+        <item>Acupuncture</item>
+        <item>Allergy And Asthma</item>
+        <item>Anatomy</item>
+        <item>Cancer Specialist</item>
+        <item>Cardiac Surgery</item>
+        <item>Child Specialist</item>
+    </string-array>
+
+
+
 </resources>
