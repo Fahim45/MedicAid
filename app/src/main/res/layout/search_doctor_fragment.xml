@@ -6,15 +6,6 @@
     android:background="#00FFFF"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Doctor Info"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        tools:ignore="HardcodedText"
-        android:gravity="center_horizontal" />
-
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
