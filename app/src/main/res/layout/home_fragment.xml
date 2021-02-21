@@ -32,16 +32,18 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/splash_image"
+                android:layout_height="150dp"
+                android:src="@drawable/med_reminder"
                 android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 tools:ignore="ContentDescription" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Med reminder"
+                android:text="Med Reminder"
                 android:textSize="15sp"
+                android:textColor="#000000"
                 android:gravity="center"
                 android:padding="5dp"
                 tools:ignore="HardcodedText" />
@@ -59,16 +61,18 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/splash_image"
+                android:layout_height="150dp"
+                android:src="@drawable/first_aid"
                 android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 tools:ignore="ContentDescription" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Med reminder"
+                android:text="First Aid Tips"
                 android:textSize="15sp"
+                android:textColor="#000000"
                 android:gravity="center"
                 android:padding="5dp"
                 tools:ignore="HardcodedText" />
@@ -95,16 +99,18 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/splash_image"
+                android:layout_height="150dp"
+                android:src="@drawable/blood_donor"
                 android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 tools:ignore="ContentDescription" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Med reminder"
+                android:text="Search Donor"
                 android:textSize="15sp"
+                android:textColor="#000000"
                 android:gravity="center"
                 android:padding="5dp"
                 tools:ignore="HardcodedText" />
@@ -121,16 +127,18 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/splash_image"
+                android:layout_height="150dp"
+                android:src="@drawable/doctor_image"
                 android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 tools:ignore="ContentDescription" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Med reminder"
+                android:text="Search Doctor"
                 android:textSize="15sp"
+                android:textColor="#000000"
                 android:gravity="center"
                 android:padding="5dp"
                 tools:ignore="HardcodedText" />
