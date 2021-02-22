@@ -1,7 +1,5 @@
 package com.cse25.medicaid.features;
 
-import android.view.View;
-
 import com.cse25.medicaid.R;
 import com.cse25.medicaid.support.BaseActivity;
 import com.cse25.medicaid.support.Navigator;
@@ -20,7 +18,7 @@ public class LogInActivity extends BaseActivity {
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_login_fragment;
+        return R.layout.activity_login;
     }
 
     @Override
@@ -34,12 +32,9 @@ public class LogInActivity extends BaseActivity {
 
     @Override
     protected void addObserversAndHandlers() {
-        findViewById(R.id.signin_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigator.startActivity(LogInActivity.this, SignUpActivity.class);
-                finish();
-            }
+        findViewById(R.id.signin_button).setOnClickListener(v -> {
+            Navigator.startActivity(LogInActivity.this, SignUpActivity.class);
+            finish();
         });
     }
 
