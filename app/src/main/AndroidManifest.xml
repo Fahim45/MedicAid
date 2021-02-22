@@ -30,7 +30,11 @@
 
         <activity android:name=".features.AddDoctorActivity"/>
 
+        <activity android:name=".features.UpdateDoctorActivity"/>
+
         <activity android:name=".features.AddDonorActivity"/>
+
+        <activity android:name=".features.UpdateDonorActivity"/>
 
         <activity android:name=".features.DoctorInfoActivity"/>
 
