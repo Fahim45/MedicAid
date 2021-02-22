@@ -1,4 +1,4 @@
 package com.cse25.medicaid;
 
-public class LogInFragment {
+public class LogInActivity {
 }
