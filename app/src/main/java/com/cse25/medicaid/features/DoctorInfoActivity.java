@@ -1,4 +1,4 @@
-package com.cse25.medicaid;
+package com.cse25.medicaid.features;
 
 public class DoctorInfoActivity {
 }
