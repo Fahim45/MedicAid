@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698535228610",
+    "project_id": "medicaid-5777c",
+    "storage_bucket": "medicaid-5777c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698535228610:android:34c44d7f7d4b19b443f75b",
+        "android_client_info": {
+          "package_name": "com.cse25.medicaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698535228610-cn4u77annmthu82s5hngv3hr9g460490.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqn4oFYJnUiKGBC8fZHU_FCNKde2gmK_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698535228610-cn4u77annmthu82s5hngv3hr9g460490.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
