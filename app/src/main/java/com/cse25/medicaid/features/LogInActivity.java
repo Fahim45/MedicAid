@@ -36,6 +36,10 @@ public class LogInActivity extends BaseActivity {
             Navigator.startActivity(LogInActivity.this, SignUpActivity.class);
             finish();
         });
+        findViewById(R.id.login_button).setOnClickListener(v -> {
+            Navigator.startActivity(LogInActivity.this, HomeUserActivity.class);
+            finish();
+        });
     }
 
 
