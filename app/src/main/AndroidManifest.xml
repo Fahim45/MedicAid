@@ -26,7 +26,19 @@
 
         <activity android:name=".features.HomeUserActivity"/>
 
+        <activity android:name=".features.HomeAdminActivity"/>
+
         <activity android:name=".features.AddDoctorActivity"/>
+
+        <activity android:name=".features.AddDonorActivity"/>
+
+        <activity android:name=".features.DoctorInfoActivity"/>
+
+        <activity android:name=".features.DonorInfoActivity"/>
+
+        <activity android:name=".features.SearchDoctorActivity"/>
+
+        <activity android:name=".features.SearchDonorActivity"/>
 
     </application>
 
