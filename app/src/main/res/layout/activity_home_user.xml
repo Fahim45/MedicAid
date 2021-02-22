@@ -23,6 +23,7 @@
         android:baselineAligned="false">
 
         <LinearLayout
+            android:id="@+id/menu_item_med_reminder"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -52,6 +53,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/menu_item_First_aid_tips"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -90,6 +92,7 @@
         android:baselineAligned="false">
 
         <LinearLayout
+            android:id="@+id/menu_item_search_donor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -118,6 +121,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/menu_item_search_doctor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
