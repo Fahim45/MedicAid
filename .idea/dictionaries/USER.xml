@@ -2,6 +2,7 @@
   <dictionary name="USER">
     <words>
       <w>autofill</w>
+      <w>signin</w>
     </words>
   </dictionary>
 </component>
