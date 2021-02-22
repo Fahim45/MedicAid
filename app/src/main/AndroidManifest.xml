@@ -26,6 +26,8 @@
 
         <activity android:name=".features.HomeUserActivity"/>
 
+        <activity android:name=".features.AddDoctorActivity"/>
+
     </application>
 
 </manifest>
