@@ -23,6 +23,7 @@
             tools:ignore="HardcodedText" />
 
         <EditText
+            android:id="@+id/edit_text_doctor_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -40,6 +41,7 @@
             tools:ignore="HardcodedText" />
 
         <EditText
+            android:id="@+id/edit_text_doctor_city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
@@ -57,6 +59,7 @@
             tools:ignore="HardcodedText" />
 
         <EditText
+            android:id="@+id/edit_text_doctor_speciality"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -74,6 +77,7 @@
             tools:ignore="HardcodedText" />
 
         <EditText
+            android:id="@+id/edit_text_doctor_hospital"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -91,13 +95,16 @@
             tools:ignore="HardcodedText" />
 
         <EditText
+            android:id="@+id/edit_text_doctor_mobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:inputType="number"
             android:background="@null"
             tools:ignore="Autofill,LabelFor" />
+
         <Button
+            android:id="@+id/add_doctor_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="continue"
