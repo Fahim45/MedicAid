@@ -6,19 +6,32 @@
     android:background="#00FFFF"
     android:orientation="vertical">
 
-    <Spinner
+    <EditText
+        android:id="@+id/doctor_city_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/city_array"
-        android:padding="10dp"/>
+        android:hint="Enter doctor city"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:padding="10dp"
+        tools:ignore="HardcodedText"
+        android:background="@null"
+        android:importantForAutofill="no" />
 
-    <Spinner
+    <EditText
+        android:id="@+id/doctor_speciality_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/speciality_array"
-        android:padding="10dp"/>
+        android:hint="Enter doctor speciality"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:padding="10dp"
+        tools:ignore="HardcodedText"
+        android:background="@null"
+        android:importantForAutofill="no" />
 
     <Button
+        android:id="@+id/doctor_search_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="search"
@@ -30,6 +43,7 @@
         tools:ignore="HardcodedText"/>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_doctor_rv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
